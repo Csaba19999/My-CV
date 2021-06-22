@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+main{
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1372px;
+    display: grid;
+    grid-template-areas:
+        "h h h h h h h h h h h h"
+        "c c c c c A A A A A A A"
+        "c c c c c A A A A A A A"
+        "e e e e e e e e e e e e"
+        "a a a a a a a a a a a a"
+        "a a a a a a a a a a a a"
+        "f f f f f f f f f f f f";
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-name: page-load;
+}
+
+/*-----------NAV kialakítása------------*/
+header{
+    margin-top: 1%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid black;
+}
+nav ul, nav li {
+    list-style: none
+}
+nav ul{
+    display: flex;
+    justify-content:flex-end;
+
+}
+nav li {
+    float: right;
+    padding: 2%;
+    flex-direction:column;
+
+}
+
+/*-----------------------*/
+
+
+/*-----------DARK MODE GOMB------------*/
+.onoffswitch {
+    position: relative; width: 80px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.onoffswitch {
+    position: relative; width: 60px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 50px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 25px; padding: 0; line-height: 25px;
+    font-size: 17px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "KI";
+    padding-left: 3px;
+    background-color: #ffffff; color: #000000;
+}
+.onoffswitch-inner:after {
+    content: "BE";
+    padding-right: 3px;
+    background-color: #000000; color: #ffffff;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 24px; margin: 0.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 31px;
+    border: 2px solid #999999; border-radius: 50px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+/*-----------------------*/
+
+/*-----------Nyelvi és sötét mód gombok elhelyezése------------*/
+#settings img{
+    max-height: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#settings{
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+/*CARD*/
+#main-card{
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: cardFont;
+   background-color:#484f54;
+   margin: 40px;
+   padding: 10px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: #ffffff;
+   text-shadow: 0px 0px 3px rgba(0,0,0,1);
+   box-shadow: 0px 0px 2px rgba(0,0,0,0.6);
+   border-radius: 2%;
+}
+ #kep-card img{
+  width: 270px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #FFFFFF;
+  box-shadow: 0px 0px 11px rgba(0,0,0,1);
+  transition: width 1s;
+}
+ #kep-card img:hover{
+  width: 310px;
+}
+#social-card img{
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,1);
+    transition: width 500ms;
+}
+#social-card img:hover{
+    width: 45px;
+}
+#foCim{
+    font-family: cardFont;
+    font-size: 40px;
+}
+
+article{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+table tr{
+    border: 1px solid black;
+}
+table tr td{
+    border: 1px solid black;
+}
+table{
+    width: 50%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid black;
+    margin-top: 5%;
+    width: 100%;
+}
+#footer-cim{
+    font-family: cardFont;
+}
+#eredmenyek{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+header{grid-area:h;}
+aside{grid-area:A;}
+footer{grid-area:f;}
+#main-card{grid-area:c;}
+#eredmenyek{grid-area:e;}
+article{grid-area:a;}
+
+@font-face {
+  font-family: cardFont;
+  src: url("font/BebasNeue-Regular.ttf");
+  font-weight: bold;
+}
+@keyframes page-load {
+  from {
+    margin-top:-3000px;
+    opacity:0;
+  }
+  10%{
+      opacity: 0;
+  }
+  50%{
+      margin-top:0px;
+  }
+  to {
+    opacity:1;
+  }
+}
