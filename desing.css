@@ -31,8 +31,15 @@ header{
     align-items:center;
     border-bottom: 1px solid black;
 }
-nav ul, nav li {
-    list-style: none
+
+#signo{
+    width: 400px;
+    height: 150px;
+}
+
+ul, li{
+    list-style: none;
+    text-decoration: none;
 }
 nav ul{
     display: flex;
@@ -43,7 +50,23 @@ nav li {
     float: right;
     padding: 2%;
     flex-direction:column;
-
+}
+nav ul li a{
+    color: #3399ff;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: navFont;
+    text-shadow: 0px 0px 1px rgba(0,0,0,1);
+    border-bottom-width: 0px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    padding:0px;
+    transition: border-bottom 150ms,border-bottom-width 150ms, font-size 500ms, box-shadow 500ms, padding 150ms;
+    
+}
+nav ul li a:hover{
+    border-bottom: 3px solid #3366ff;
+    font-size:30px;
+    text-shadow: 0px 0px 2px rgba(0,0,100,0.4);
 }
 
 /*-----------------------*/
@@ -119,32 +142,32 @@ nav li {
 
 /*CARD*/
 #main-card{
-   display: flex;
-   flex-direction:column;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   font-family: cardFont;
-   background-color:#484f54;
-   margin: 40px;
-   padding: 10px;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   color: #ffffff;
-   text-shadow: 0px 0px 3px rgba(0,0,0,1);
-   box-shadow: 0px 0px 2px rgba(0,0,0,0.6);
-   border-radius: 2%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: cardFont;
+    background-color:#484f54;
+    margin: 40px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 0px 0px 3px rgba(0,0,0,1);
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.6);
+    border-radius: 2%;
 }
- #kep-card img{
-  width: 270px;
-  border-radius: 50%;
-  border: 3px solid;
-  border-color: #FFFFFF;
-  box-shadow: 0px 0px 11px rgba(0,0,0,1);
-  transition: width 1s;
+#kep-card img{
+    width: 270px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 11px rgba(0,0,0,1);
+    transition: width 1s;
 }
- #kep-card img:hover{
-  width: 310px;
+#kep-card img:hover{
+    width: 310px;
 }
 #social-card img{
     width: 40px;
@@ -184,18 +207,44 @@ footer{
     border-top: 1px solid black;
     margin-top: 5%;
     width: 100%;
+    
+}
+footer address ul li p a{
+    text-decoration: none;
 }
 #footer-cim{
     font-family: cardFont;
 }
 #eredmenyek{
     margin-top: 5%;
+    margin-bottom: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#footer-social{
+    text-align: center;
+}
+#footer-social img:hover{
+    width: 45px;
+}
+#footer-social img{
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,1);
+    transition: width 500ms;
+}
+#qr-code img{
+    width: 50%;
+}
+#qr-code{
     text-align: center;
 }
 header{grid-area:h;}
@@ -206,22 +255,27 @@ footer{grid-area:f;}
 article{grid-area:a;}
 
 @font-face {
-  font-family: cardFont;
-  src: url("font/BebasNeue-Regular.ttf");
-  font-weight: bold;
+    font-family: cardFont;
+    src: url("font/BebasNeue-Regular.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: navFont;
+    src: url("font/Staatliches-Regular.ttf");
+    font-weight: bold;
 }
 @keyframes page-load {
-  from {
-    margin-top:-3000px;
-    opacity:0;
-  }
-  10%{
-      opacity: 0;
-  }
-  50%{
-      margin-top:0px;
-  }
-  to {
-    opacity:1;
-  }
+    from {
+        margin-top:-3000px;
+        opacity:0;
+    }
+    10%{
+        opacity: 0;
+    }
+    50%{
+        margin-top:0px;
+    }
+    to {
+        opacity:1;
+    }
 }
