@@ -5,8 +5,8 @@
         <group>
             <file>file:/C:/xampp/htdocs/CVTeszt/kepek/content/profilKep.png</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/Json.json</file>
-            <file>file:/C:/xampp/htdocs/CVTeszt/tartalom.css</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/kepek/icon/Névtelen.png</file>
+            <file>file:/C:/xampp/htdocs/CVTeszt/oldalak/referencia.php</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/index.php</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/kepek/content/headerHatter.png</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/kepek/icon/190-1908917_uk-flag-png-transparent-uk-flag-icon-png_100x100.png</file>
@@ -17,9 +17,12 @@
             <file>file:/C:/xampp/htdocs/CVTeszt/desing.css</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/kepek/content/Névtelen.png</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/Tablazat.php</file>
+            <file>file:/C:/xampp/htdocs/CVTeszt/JS_Style.css</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/kepek/icon/letöltés.png</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/kepek/content/test.png</file>
             <file>file:/C:/xampp/htdocs/CVTeszt/JS_tartalom.js</file>
+            <file>file:/C:/xampp/htdocs/CVTeszt/svg/signo.svg</file>
+            <file>file:/C:/xampp/htdocs/CVTeszt/oldalak/hobbi.php</file>
         </group>
     </open-files>
 </project-private>

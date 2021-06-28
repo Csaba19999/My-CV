@@ -3,7 +3,11 @@
 
 .lightM{
     background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
 }
 .darkM{
-    background-color: #666666;
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #ffffff;
 }
