@@ -41,26 +41,34 @@
                 </nav>
 
             </header>
-            
+
             <article id="referencia">
-                
+
                 <div id="ref-card">
                     <div id="ref-card-img">
                         <img src="../kepek/content/63151043f9d8.jpg" alt=""/>
                         <div id="ref-card-text">
                             <h2>Discord bot</h2>
-                            <p>sadféjkhbef kjef skejghf s efh osefhoifoioi ho  h hihihhhdrf hrfer goledr bgid rpuigpod riogjodryjgiojiopdrj gpédjropig hjdéléi jt hrftdfgh rtdg drg drg dr gd rg dr gd rg drg drg dr gh rtf hrft hrft hrt htrf h  </p>
-                            <div id="ref-card-links">
-                                <button class="ref-card-button">Link</button>
-                                <button class="ref-card-button">Link</button>
-                            </div>
+                            <p>Parancs lista: !thomashelp
+                                Alszik a barátod a gép elött? Vagy csak simán sorizik és nem válaszol?
+                                Ha nem reagál a spamre és facebookon se ír vissza csak is 2 lehetőség mardt.
+                                A : Meghalt és többet nem látod.
+                                B : Nem édekli vagy nem halja hogy keresed! De semmi gond! Ha nem reagál a barátod csak ültesd fel Thomasra a Hősmozdonyra és várd a csodát!
+                                FIGYELEM ! Lehetséges rosszul lét a hullámvasúton!
+                            </p>
                         </div>
+                        <div id="ref-card-links">
+                        <ul>
+                            <li><a href="https://discord.com/api/oauth2/authorize?client_id=830753364466991125&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize&scope=bot" class="ref-card-button">meghívás</a></li>
+                            <li><a href="https://github.com/Csaba19999/DCthomasBot.git" class="ref-card-button">forráskód</a></li>
+                        </ul>
+                    </div>
                     </div>
                 </div>
-                
-                
+
+
             </article>
-            
+
             <footer class="lightM">
                 <address>
                     <ul>

@@ -32,7 +32,7 @@
 
                     <ul>
                         <li><a href="#main-card" target="_top">Rólam</a></li>
-                        <li><a href="#eredmenyek" target="_top">Eredményeim</a></li>
+                        <li><a href="#tablazatok" target="_top">Eredményeim</a></li>
                         <li><a href="oldalak/hobbi.php" target="_top">Hobbik</a></li>
                         <li><a href="oldalak/referencia.php" target="_top">Referenciák</a></li>
                         <li><a href="#footer-social" target="_top">Elérhetőségek</a></li>
@@ -52,8 +52,13 @@
                 </div> 
             </div>
 
-            <aside class="lightM">
+            <aside id="sajatUtamon" class="lightM">
                 <h1 id="foCim">A saját utamon</h1>
+                <p>Jelenleg szoftverfejlesztő és tesztelő szakon tanulok. Szeretnék választott szakmámban elhelyezkedni és vállalati
+                    környezetben mélyebb szintű ismereteket szerezni. Jó problémamegoldó képességgel rendelkezem. Szeretnék tanulni
+                    és mellette szeretnék pénzt is keresni. Előző munkahelyemen vezetői beosztásban dolgoztam, ahol adminisztrációs
+                    feladatok és emberek koordinálása volt a feladatom. Jellemző rám, hogy rendezett, és pontos munkát végzek,
+                    valamint odafigyelek a határidők betartására.</p>
                 <p>Why do we use it?
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
@@ -61,149 +66,158 @@
                     Where does it come from?
                     Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                <p>Why do we use it?
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-                    Where does it come from?
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>            
             </aside>
-
-            <div id="eredmenyek" class="lightM">
+            <div id="valaszVonalHolder"><div id="valaszVonal"></div></div>
+            <article>
                 <h1 id="foCim">Eddigi eredményeim</h1>
-                <p>Why do we use it?
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                <div id="tablazatok">
+                    <table class="tabla lightM">
+                        <h3 class="tablacim">Eddigi munkahelyeim:</h3>
+                        <tr class="alCim2">
+                            <th>Tól-ig</th>
+                            <th>Vállalat</th>
+                            <th>Pozíció</th>
+                        </tr>
+                        <tr>
+                            <td>2018.04.11 - </td>
+                            <td>A Progresz Étterem Hálózat.Kft -McDonald’s</td>
+                            <td>Trainer</td>
+                        </tr>
+                    </table>
 
+                    <table class="tabla lightM">  
+                        <h3 class="tablacim">Eddigi tanulmányaim:</h3>
+                        <tr class="alCim2">
+                            <th>Tól-ig</th>
+                            <th>Iskola</th>
+                            <th>Képzés típusa </th>
+                            <th>Státusz</th>
+                        </tr>
+                        <tr>
+                            <td>2013-2017</td>
+                            <td>Érdi SZC Kossuth Zsuzsanna Szakképző Iskolája és Kollégiuma </td>
+                            <td>Cukrász szakképzés </td>
+                            <td>Befejezve</td>
+                        </tr>
+                        <tr>
+                            <td>2017-2019 </td>
+                            <td>Érdi SZC Kossuth Zsuzsanna Szakképző Iskolája és Kollégiuma  </td>
+                            <td>Érettségi </td>
+                            <td>Befejezve</td>
+                        </tr>
+                        <tr>
+                            <td>2020- </td>
+                            <td>SZÁMALK-Szalézi Technikum és Szakgimnázium</td>
+                            <td>Szoftverfejlesztő és tesztelő</td>
+                            <td>Folyamatban</td>
+                        </tr>
+                    </table>
+                    <table class="tabla lightM">
+                        <h3 class="tablacim">Beszélt nyelvek: </h3>
+                        <tr class="alCim2">
+                            <th>Nyelv</th>
+                            <th>Szint</th>
+                        </tr>
+                        <tr>
+                            <td>Magyar </td>
+                            <td>Angol </td>
+                        </tr>
+                        <tr>
+                            <td>Anyanyelvi szint</td>
+                            <td>Kommunikációs szinten</td>
+                        </tr>
+                    </table>
 
-                    Where does it come from?
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-            </div>
-            <article class="lightM">
-                <table>
-                    <tr>
-                        <th>Firstname</th>
-                        <th>Lastname</th> 
-                        <th>Age</th>
-                    </tr>
-                    <tr>
-                        <td>Jill</td>
-                        <td>Smith</td>
-                        <td>50</td>
-                    </tr>
-                    <tr>
-                        <td>Eve</td>
-                        <td>Jackson</td>
-                        <td>94</td>
-                    </tr>
-                    <tr>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>80</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <th>Firstname</th>
-                        <th>Lastname</th> 
-                        <th>Age</th>
-                    </tr>
-                    <tr>
-                        <td>Jill</td>
-                        <td>Smith</td>
-                        <td>50</td>
-                    </tr>
-                    <tr>
-                        <td>Eve</td>
-                        <td>Jackson</td>
-                        <td>94</td>
-                    </tr>
-                    <tr>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>80</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <th>Firstname</th>
-                        <th>Lastname</th> 
-                        <th>Age</th>
-                    </tr>
-                    <tr>
-                        <td>Jill</td>
-                        <td>Smith</td>
-                        <td>50</td>
-                    </tr>
-                    <tr>
-                        <td>Eve</td>
-                        <td>Jackson</td>
-                        <td>94</td>
-                    </tr>
-                    <tr>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>80</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <th>Firstname</th>
-                        <th>Lastname</th> 
-                        <th>Age</th>
-                    </tr>
-                    <tr>
-                        <td>Jill</td>
-                        <td>Smith</td>
-                        <td>50</td>
-                    </tr>
-                    <tr>
-                        <td>Eve</td>
-                        <td>Jackson</td>
-                        <td>94</td>
-                    </tr>
-                    <tr>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>80</td>
-                    </tr>
-                </table>
-
+                    <table class="tabla lightM">
+                        <h3 class="tablacim">Program nyelvek: </h3>
+                        <tr class="alCim2">
+                            <th>Nyelv</th>
+                            <th>Szint</th>
+                            <th>Magabiztossági szint</th>
+                        </tr>
+                        <tr>
+                            <td>HTML/CSS/JS</th>
+                            <td>Alapszintű</td>
+                            <td>⭐️⭐️⭐</td>
+                        </tr>
+                        <tr>
+                            <td>PHP</td>
+                            <td>Alapszintű</td>
+                            <td>⭐️⭐</td>
+                        </tr>
+                        <tr>
+                            <td>MsSQL</td>
+                            <td>Alapszintű</td>
+                            <td>⭐️⭐️⭐</td>
+                        </tr>
+                        <tr>
+                            <td>World Press</td>
+                            <td>Alapszintű</td>
+                            <td>⭐️⭐️⭐️</td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                            <td>Alapszintű</td>
+                            <td>⭐️⭐️⭐️</td>
+                        </tr>
+                    </table>
+                </div>
             </article>
 
-            <footer class="lightM">
-                <address>
-                    <ul>
-                        <li><h3 id="footer-cim">Elérhetőségek</h3></li>
-                        <li>
-                            <ul>
-                                <li><p>Telefonszám: <a href="tel:+36501080482"> +36501080482</a></p></li>
-                                <li><p>E-mail: <a href="mailto:menesi777@gmail.com"> menesi777@gmail.com</a></p></li>
-                                <li><p>GitHub: <a href="https://github.com/Csaba19999" target="_blank"> Csaba19999</a></p></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p>Kérdés vagy ajánlat esetén ezeken a címeken érhetnek el.</p>
-                </address>
+            <div id="eredmenyek" class="lightM">
+                <ul>
+                    <h3 class="alCim">Soft skill's</h3>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                </ul>
+                <div id="skillValaszto"></div>
+                <ul>
+                    <h3 class="alCim">Hard skill's</h3>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                    <li>- Lorem ipsum</li>
+                </ul>
+            </div>
+        </div>
+        <footer class="lightM">
+            <address>
+                <ul>
+                    <li><h3 id="footer-cim">Elérhetőségek</h3></li>
+                    <li>
+                        <ul>
+                            <li><p>Telefonszám: <a href="tel:+36501080482"> +36501080482</a></p></li>
+                            <li><p>E-mail: <a href="mailto:menesi777@gmail.com"> menesi777@gmail.com</a></p></li>
+                            <li><p>GitHub: <a href="https://github.com/Csaba19999" target="_blank"> Csaba19999</a></p></li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Kérdés vagy ajánlat esetén ezeken a címeken érhetnek el.</p>
+            </address>
 
-                <div id="qr-code">
-                    <img src="kepek/icon/qrcode.png" alt=""/>
-                    <h3 id="footer-cim">Jövőbeli projectek.</h3>
-                </div>
+            <div id="qr-code">
+                <img src="kepek/icon/qrcode.png" alt=""/>
+                <h3 id="footer-cim">Jövőbeli projectek.</h3>
+            </div>
 
-                <div id="footer-social">
-                    <a href="mailto:menesi777@gmail.com" target="_blank"><img src="kepek/icon/gmail-30-722694.png" alt="menesi777@gmail.com"/></a>
-                    <a href="https://www.facebook.com/csaba.menesi.1/" target="_blank"><img src="kepek/icon/Facebook_icon_192.png" alt="facebook_icon"/></a>
-                    <a href="https://github.com/Csaba19999" target="_blank"><img src="kepek/icon/github-163-761603.png" alt="GitHub_icon"/></a>
-                    <a href="https://www.instagram.com/me.csaba/" target="_blank"><img src="kepek/icon/letöltés.png" alt="Instagram_icon"/></a>
-                    <p>@Minden jog fenntartva</p>
-                </div>
+            <div id="footer-social">
+                <a href="mailto:menesi777@gmail.com" target="_blank"><img src="kepek/icon/gmail-30-722694.png" alt="menesi777@gmail.com"/></a>
+                <a href="https://www.facebook.com/csaba.menesi.1/" target="_blank"><img src="kepek/icon/Facebook_icon_192.png" alt="facebook_icon"/></a>
+                <a href="https://github.com/Csaba19999" target="_blank"><img src="kepek/icon/github-163-761603.png" alt="GitHub_icon"/></a>
+                <a href="https://www.instagram.com/me.csaba/" target="_blank"><img src="kepek/icon/letöltés.png" alt="Instagram_icon"/></a>
+                <p>@Minden jog fenntartva</p>
+            </div>
 
-            </footer>
-        </main>
-    </body>
+        </footer>
+    </main>
+</body>
 </html>
